@@ -10,5 +10,6 @@ for VVerh Digital
 
 # Скриншоты выполнения
 Первое задание (часть сгенерированного файла)
-![Первое-задание](https://sun9-31.userapi.com/wS9913rOatIZK2ZputE2Oa0dEG9y2Et-cld6-Q/h1HVL5kZ7rM.jpg)
+![Первое-задание](https://sun9-31.userapi.com/wS9913rOatIZK2ZputE2Oa0dEG9y2Et-cld6-Q/h1HVL5kZ7rM.jpg "Первое задание (часть сгенерированного файла)")
+Второе задание, нарисованный график
 ![Второе-задание](https://sun9-49.userapi.com/Wb8DuVFmXCCgaEFoqZrTuAQjnRQ6p1U1dCaq_g/onZtlkF6ve4.jpg "Второе задание, нарисованный график")
