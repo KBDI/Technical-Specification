@@ -47,7 +47,7 @@ class FirstTask
 
 			for ($i=0; $i < count($currentSubcategory->find('div[class*=one_section_product_cells] div[class*=name_product] a')); $i++) { 
 
-				$nameProduct = trim($currentSubcategory->find('div[class*=one_section_product_cells] div[class*=name_product] a', $i)->plaintext);
+				$nameProduct = htmlspecialchars_decode(trim($currentSubcategory->find('div[class*=one_section_product_cells] div[class*=name_product] a', $i)->plaintext));
 				$priceProduct = preg_replace('/[^0-9]/', '', $currentSubcategory->find('div[class*=one_section_product_cells] div[class*=new_price]', $i)->plaintext);
 				$pictureProduct = self::SITE . explode("'", $currentSubcategory->find('div[class*=one_section_product_cells] a[class*=image_product]', $i)->style)[1];
 
